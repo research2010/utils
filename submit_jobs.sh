@@ -1,7 +1,9 @@
 #!/bin/bash
 #
-# This file is used to submit jobs into the cluster, and I have to set the maximum number of jobs running on the cluster simutanously because of the limited machines. 
-# If the number of my running jobs is equal to the maximum value, then it will wait for some seconds and query again to check if we could submit another job
+# This file is used to submit jobs into the cluster, and I have to set the maximum 
+# number of jobs running on the cluster simutanously because of the limited machines. 
+# If the number of my running jobs is equal to the maximum value, then it will wait 
+# for some seconds and query again to check if we could submit another job
 #
 
 lower_sec=10
